@@ -1,0 +1,19 @@
+Q1:
+a. ​val id = 9527  //correct
+b. ​var number : Int = 5.6  //error: 宣告為Int 值不能為浮點數
+c. ​var title = "Hello Kotlin!"  //correct
+d. ​val content : String = null  //error: kotlin 為 null safty ，應改成 String? = null
+e. ​val number : Double? = 556.6  //correct
+f. ​var list: List<String>? = ​listOf​(null, null) //error 整個list 可為null，list內的值不能為null 
+g. ​var list: List<String?>? = ​listOf​("Wayne", "Chen")  //correct
+h. ​list.size  //correct
+i. ​list?.size //correct
+
+Q2:
+答案:c
+字串長度為39，介於1到39之間，範圍為:in 1..39
+
+Q3:
+答案:d
+pow 為計算次方的數學函數，it 指向陣列本身走訪陣列的值由0到5帶入
+
